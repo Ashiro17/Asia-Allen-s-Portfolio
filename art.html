@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art — Asia Allen</title>
+    <link rel="preconnect" href="https://fontlibrary.org" />
+    <link rel="stylesheet" href="https://fontlibrary.org//face/xb-niloofar" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <a href="index.html" class="banner" aria-label="Go to homepage"></a>
+
+    <nav>
+      <div class="nav-container">
+        <a class="nav-links active" href="art.html">Art</a>
+        <a class="nav-links" href="index.html">Home Page</a>
+        <a class="nav-links" href="projects.html">Projects</a>
+        <a class="nav-links" href="certification.html">Certification</a>
+        <a class="nav-links" href="files/Asia Allen.pdf" target="_blank">Resume ↓</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="gallery-section">
+
+        <div class="gallery-hero">
+          <h1>Gallery</h1>
+          <div class="section-divider"></div>
+          <p>A collection of original works I made throughout the years.</p>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" onclick="filterGallery(this,'all')">All Works</button>
+          <button class="filter-btn" onclick="filterGallery(this,'Unfinished')">Unfinished</button>
+          <button class="filter-btn" onclick="filterGallery(this,'Illustration')">Illustration</button>
+          <button class="filter-btn" onclick="filterGallery(this,'Other')">Other</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+          <div class="art-card" data-cat="Unfinished">
+            <img class="img-real" src="images/Untitled design.png" alt="Mystery Man" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>No Named Man</h3>
+              <p>Medium · 2025</p>
+              <span class="art-tag">Unfinished</span>
+            </div>
+          </div>
+
+          <div class="art-card" data-cat="Illustration">
+            <img class="img-real" src="images/wwww.jpeg" alt="No Named Woman" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>No Named Woman</h3>
+              <p>Medium · 2025</p>
+              <span class="art-tag">Illustration</span>
+            </div>
+          </div>
+
+          <div class="art-card" data-cat="Unfinished">
+            <img class="img-real" src="images/Screenshot_8-5-2026_84516_www.instagram.com.jpeg" alt="No Named Woman" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>No Named Woman</h3>
+              <p>Medium · 2024</p>
+              <span class="art-tag">Unfinished</span>
+            </div>
+          </div>
+
+          <div class="art-card" data-cat="Illustration">
+            <img class="img-real" src="images/Screenshot_8-5-2026_84546_www.instagram.com.jpeg" alt="No Named Woman" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>No Named Woman</h3>
+              <p>Medium · 2024</p>
+              <span class="art-tag">Illustration</span>
+            </div>
+          </div>
+
+          <div class="art-card" data-cat="Other">
+            <img class="img-real" src="images/dog.png" alt="Jackie Brown" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>Jackie Brown</h3>
+              <p>Medium · 2024</p>
+              <span class="art-tag">Other</span>
+            </div>
+          </div>
+
+          <div class="art-card" data-cat="Illustration">
+            <img class="img-real" src="images/Screenshot_8-5-2026_8515_www.instagram.com.jpeg" alt="Peter Parker - Tom Holland" />
+            <div class="corner-bracket"></div>
+            <div class="corner-bracket-bl"></div>
+            <div class="art-overlay">
+              <h3>Peter Parker - Tom Holland</h3>
+              <p>Medium · 2023</p>
+              <span class="art-tag">Illustration</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="gallery-cta">
+          <button class="view-more-btn">View More</button>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>© 2026 Asia Allen. All Rights Reserved.</p>
+        <div class="footer-links">
+          <a href="index.html">Home Page</a>
+          <a href="projects.html">Projects</a>
+          <a href="art.html">Art</a>
+          <a href="certification.html">Certification</a>
+          <a href="files/Asia Allen.pdf" target="_blank">Resume</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/ui.js" defer></script>
+  </body>
+</html> 
